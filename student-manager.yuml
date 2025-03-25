@@ -1,0 +1,23 @@
+// Actors
+[Student]
+[Admin]
+[Teacher]
+
+// Use Cases
+(Enroll in Course)
+(View Grades)
+(Update Profile)
+(Manage Students)
+(Assign Grades)
+(Create Course)
+(Delete Course)
+
+// Relationships
+[Student]-(Enroll in Course)
+[Student]-(View Grades)
+[Student]-(Update Profile)
+[Teacher]-(Assign Grades)
+[Teacher]-(Create Course)
+[Admin]-(Manage Students)
+[Admin]-(Create Course)
+[Admin]-(Delete Course)
